@@ -1,0 +1,59 @@
+/*最上面搜索栏里面的占位符*/
+.gn_search_v2 span
+{
+    display: none!important;
+}
+/*菜单栏*/
+.gn_nav_list li:not(:last-child){
+    display: none!important;
+}
+
+[node-type="recommendTopic"]{
+    display:none;
+}
+/*微博发送框*/
+.W_input, .send_weibo .input {
+    background-color: rgba(128, 128, 128,0.01)!important;
+}
+/*字体颜色*/
+body, legend, .W_input:focus, .S_txt1, .W_btn_b, .SW_fun .S_func1 {
+    color: rgb(206, 202, 202)!important;
+    text-decoration: none;
+}
+/*微博背景颜色*/
+.S_bg2, blockquote, .W_btn_b, .W_input, .SW_fun_bg {
+    background-color: rgba(128, 128, 128, 0.3)!important;
+}
+/*微博背景颜色*/
+.S_bg1, .SW_fun_bg:hover, .SW_fun_bg_active {
+    background-color: rgba(128, 128, 128, 0.1)!important;
+}
+.M_sc_tips /*最上栏的广告*/
+{
+    display: none!important;
+}
+.WB_right_module  /*右侧热门话题*/
+{
+    display: none;
+}
+
+.PCD_pictext_g  /*微博电影想看榜*/
+{
+    display: none;
+}
+/*调整版面*/
+.WB_frame {
+    padding: 22px 0 0 92px;
+}
+
+
+
+/* #v6_pl_rightmod_attfeed
+{
+	display: none;
+}
+
+[id^="v6_pl_rightmod"]
+{
+	display: none;
+} */
